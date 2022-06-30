@@ -1,0 +1,108 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+body{
+  background-color: #EAF2E3;
+}
+
+header, .main, footer {
+  width: 90%;
+  max-width: 1000px;
+  margin: auto;
+  margin: 20px auto;
+}
+
+header nav {
+  background: #000000;
+  overflow: hidden;
+}
+
+header nav ul{
+  list-style: none;
+}
+
+header nav ul li{
+  float: left;
+}
+
+header nav ul li a{
+  padding: 10px 20px;
+  display: block;
+  color: #FFFF00;
+  text-decoration: none;
+  transition: .3s ease-out all;
+}
+
+header nav ul li a:hover{
+  background: #FFFFFF;
+}
+
+.main .articles article{
+  padding: 20px;
+  background: #FFFFFF;
+  margin-bottom: 20px;
+}
+
+aside{
+  width: 30%;
+  background: #D3D0C8;
+  float: left;
+  padding: 20px;
+  box-sizing: border-box;
+}
+
+footer{
+  background: #858585;
+  color: #000;
+  clear: both;
+  padding: 8px 0px;
+  text-align: center;
+}
+
+h1{
+  text-align: center;
+  font-family: "comic sans ms";
+  font-size: 40px;
+}
+
+h2{
+  font-family: "comic sans ms";
+}
+
+h3{
+  font-family: "comic sans ms";
+}
+
+p{
+  font-family: "comic sans ms";
+  font-size: 20px;
+}
+
+body::-webkit-scrollbar {
+  width: 7px;
+}
+
+body::-webkit-scrollbar-thumb {
+    background: #000;
+}
+
+ul{
+  font-family: "comic sans ms";
+}
+
+li{
+  font-size: 18px;
+}
+
+img{
+  height: auto;
+  margin: auto;
+  border-radius: 50px;
+  padding: 10px;
+}
+
+.imagen{
+  text-align: center;
+}
